@@ -1,10 +1,6 @@
 # Pavel Harmaza
 
----
-
 ## Contacts
-
----
 
 - **Location:** Minsk, Belarus
 - **Phone:** +375(33)346-83-65
