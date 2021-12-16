@@ -41,3 +41,16 @@ function rgb(r, g, b) {
   return final.toUpperCase();
 }
 ```
+
+## Experience
+
+## Education
+
+- **University:** Belarusian National Technical University, Civil Engineering major
+- **Selfeducation:**
+  - HTML + CSS: YouTube video courses by [Vladilen](https://www.youtube.com/c/VladilenMinin)
+  - JS: [JavaScript.ru](learn.javascript.ru)
+
+## English
+
+A2
