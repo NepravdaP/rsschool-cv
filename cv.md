@@ -15,5 +15,5 @@ I have a goal to start career as a Front-end developer cause i love interfaces a
 
 - HTML
 - CSS
-  -JavaScript(basic)
-  -Adobe Photoshop(color correction and meme making)
+- JavaScript(basic)
+- Adobe Photoshop(color correction and meme making)
