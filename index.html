@@ -9,41 +9,128 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper-container">
+    <div class="container">
       <header>
         <nav>
           <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#code-examples">Code Examples</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#languages">Languages</a></li>
+            <li><a class="links-navigation" href="#about">About Me</a></li>
+            <li><a class="links-navigation" href="#skills">Skills</a></li>
+            <li>
+              <a class="links-navigation" href="#code-example"
+                >Code Example</a
+              >
+            </li>
+            <li>
+              <a class="links-navigation" href="#experience">Experience</a>
+            </li>
+            <li><a class="links-navigation" href="#education">Education</a></li>
+            <li><a class="links-navigation" href="#languages">Languages</a></li>
           </ul>
         </nav>
       </header>
       <main>
         <aside>
-          <div class="self"></div>
-          <div class="contacts"></div>
+          <div class="self">
+            <img
+              src="/assets/photo_2022-01-02_20-08-16.jpg"
+              alt="selfie"
+              id="selfie"
+            />
+          </div>
+          <div class="contacts-block ">
+            <h1>Pavel Harmaza</h1>
+            <div class="contact">
+              
+              <img src="/assets/discord-logo-bw.png" alt="discord">Pavel Nepravda  (@NepravdaP)
+            </div>
+            <div class="contact">
+              <img src="/assets/email.svg" alt="email">pavelharmaza@gmail.com
+            </div>
+          </div>
         </aside>
         <section>
-          <div class="about"></div>
-          <div class="skills"></div>
-          <div class="code"></div>
-          <div class="experience"></div>
-          <div class="education"></div>
-          <div class="languages"></div>
+          <div class="main-block" id="about">
+            <h2>About me</h2>
+            <div class="info-wrapper">
+            <p>
+              I have a goal to start career as a Front-end developer cause i
+              love interfaces and their features. And generally like to learn
+              something new. I have good social skills and seek responsibility
+              to better live in digital
+            </p>
+          </div>  
+          </div>
+          <div class="main-block" id="skills">
+            <h2>Skills</h2>
+            <div class="info-wrapper">
+            <p>
+              <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+                <li>GitBash</li>
+              </ul>
+            </p>
+          </div>
+          </div>
+          <div class="main-block" id="code-example">
+            <h2>Code Example</h2>
+            <div class="info-wrapper">
+            <pre>
+              <code class="code-exmp">
+//Function that convert color from RGB to Hex
+ function rgb(r, g, b) {
+let arrRgb = [r, g, b];
+let final = "";
+for (let i = 0; i < arrRgb.length; i++) {
+if (arrRgb[i] <= 0) {
+  final += "00";}
+else if (arrRgb[i] > 255) {
+else if (arrRgb[i] < 16) {
+  final += "0" + arrRgb[i].toString(16);}
+else final += arrRgb[i].toString(16);
+ }
+ return final.toUpperCase();
+ }
+              </code>
+
+            </pre>
+          </div>
+          </div>
+          <div class="main-block" id="experience">
+            <h2>Expirience</h2>
+            <div class="info-wrapper">
+            <p>Hope soon there will be more info</p>
+          </div>
+          </div>
+          <div class="main-block" id="education">
+            <h2>Education</h2>
+            <div class="info-wrapper">
+            <strong>Belarussian National Technical University</strong>
+            <div>Civil Engineering | 2016 - 2021</div>
+          </div>
+          </div>
+          <div class="main-block" id="languages">
+            <h2>Languages</h2>
+            <div class="info-wrapper">
+            <p>
+              <strong>Russian</strong>: Native
+              <br>
+              <strong>Belarussian</strong>: Native
+              <br>
+              <strong>English</strong>: A2
+            </p>
+          </div>
+          </div>
         </section>
       </main>
       <footer>
-        <a href="https://github.com/NepravdaP">
-          <figure>
-            <img src="./assets/github.svg" />
-            <figcaption>NepravdaP</figcaption>
-          </figure>
+        <a href="https://github.com/NepravdaP" target="_blank">
+          <img src="./assets/github.svg" />
         </a>
-        <a href="https://rs.school/js/"
+        <h4>2022</h4>
+        <a href="https://rs.school/js/" target="_blank"
           ><img src="./assets/rs_school_js.svg" alt="rs-school link" />
         </a>
       </footer>
