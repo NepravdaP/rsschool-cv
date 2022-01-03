@@ -1,1 +1,1 @@
-https://github.com/NepravdaP/rsschool-cv
+https://NepravdaP.github.io/rsschool-cv/cv
